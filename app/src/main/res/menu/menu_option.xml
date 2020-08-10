@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/blank"
+        android:title="Foglio Bianco"
+        android:icon="@drawable/ic_new"
+        app:showAsAction="never"/>
+    <item android:id="@+id/rows"
+        android:title="Foglio a righe" />
+    <item android:id="@+id/square"
+        android:title="Foglio a quadretti" />
+    <item android:id="@+id/help"
+        android:icon="@drawable/ic_help"
+        android:title="Help"
+        app:showAsAction="never"/>
+    <item android:id="@+id/colors"
+        android:title="Colore foglio">
+        <menu xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item android:id="@+id/bianco"
+                android:title="Bianco"/>
+            <item android:id="@+id/verde"
+                android:title="Verde"/>
+            <item android:id="@+id/azzurro"
+                android:title="Azzurro"/>
+            <item android:id="@+id/giallo"
+                android:title="Giallo"/>
+            <item android:id="@+id/rosa"
+                android:title="Rosa"/>
+        </menu>
+    </item>
+</menu>
