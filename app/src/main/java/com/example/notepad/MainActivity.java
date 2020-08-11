@@ -134,19 +134,6 @@ public class MainActivity extends AppCompatActivity {
         return ret;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
